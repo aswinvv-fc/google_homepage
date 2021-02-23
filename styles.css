@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: rgb(52, 52, 52); */
+  background: url("./bg.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Josefin Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px;
+  height: 10vh;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 16vw;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+}
+nav ul li:last-child i {
+  font-size: 2.3em;
+}
+main {
+  display: grid;
+  place-content: center;
+  height: 80vh;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main section h1 {
+  font-size: 6em;
+  color: #fff;
+  font-weight: 500;
+}
+main section span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+main section span i {
+  background: white;
+  display: flex;
+  text-align: center;
+  height: 55px;
+  width: 55px;
+  padding: 20px;
+  color: rgb(52, 52, 52);
+  border-radius: 100px;
+  font-weight: normal !important;
+  margin: 20px auto;
+}
+main section span small {
+  color: #fff;
+}
+main section div {
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 100px;
+  width: 40vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main section div input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  height: 30px;
+  font-size: 16px;
+}
+main section div i {
+  padding: 10px;
+}
+main section div i {
+  color: rgb(95, 93, 93);
+  font-weight: 100;
+}
+main section div i:first-child {
+  margin-right: 10px;
+}
+footer {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #fff;
+  border-radius: 100px;
+  width: 10vw;
+  height: 35px;
+  padding: 0 10px;
+  color: rgb(19, 105, 202);
+  margin-right: 20px;
+}
